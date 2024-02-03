@@ -289,7 +289,7 @@ export const Bio = {
       description:
         "A web-based system with an online system with admin credentials and modules for monitoring orders and appointment with cost estimation.",
       image:
-        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/moto-jen-admin.png",
+        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
       tags: [
         "HTML",
         "CSS",
@@ -309,7 +309,7 @@ export const Bio = {
       description:
         "A web-based system with an online system with user credentials and modules for ordering and appointment with cost estimation.",
       image:
-        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/moto-jen-home.png",
+        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-home.png",
       tags: [
         "HTML",
         "CSS",
@@ -329,7 +329,7 @@ export const Bio = {
       description:
         "An android-based system with an online system with user credentials and modules for ordering and appointment with cost estimation.",
       image:
-        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/moto-jen-app.jpg",
+        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-app.jpg",
       tags: [
         "Android Studio",
         "XML",
@@ -345,7 +345,7 @@ export const Bio = {
       description:
         "My personal web portfolio without using Framework.",
       image:
-        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/portfolio-1.0.png",
+        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
       tags: [
         "HTML",
         "CSS",
