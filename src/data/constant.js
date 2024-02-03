@@ -352,7 +352,7 @@ export const Bio = {
         "JavaScript",
         "Email JS",
       ],
-      category: "android app",
+      category: "web app",
       webapp: "https://mhardev-old.vercel.app/",
     },
   ];
