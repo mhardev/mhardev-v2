@@ -32,21 +32,24 @@ const NavContainer = styled.div`
 `;
 
 const NavLogo = styled(LinkR)`
-    width: 80%;    
-    padding: 0 6px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    @media (max-width: 640px) {
-      padding: 0 0px;
+  width: 80%;    
+  padding: 0 6px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  @media (max-width: 640px) {
+    padding: 0 0px;
   }
 `;
+
 const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
 `;
+
 const NavItems = styled.ul`
     width: 100%;
     display: flex;
@@ -165,11 +168,14 @@ const MobileMenuLink = styled(LinkR)`
 const Navbar = () => {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <Nav>
       <NavContainer>
-      <NavLogo to='/'>
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+      <NavLogo to='/' onClick={handleLogoClick}>
+        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }} >
           <Span>MharDev</Span>
         </a>
       </NavLogo>
