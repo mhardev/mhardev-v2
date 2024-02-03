@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constant";
 import Typewriter from "typewriter-effect";
-import AboutImg from "../../images/img-home.jpg";
+import AboutImg from "../../images/About/img-home.jpg";
 import AboutBgAnimation from "../AboutBgAnimation";
 
 const AboutContainer = styled.div`
