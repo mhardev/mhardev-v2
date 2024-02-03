@@ -87,16 +87,16 @@ export const Bio = {
       title: "New lerned skills",
       skills: [
         {
-          name: "React Js",
+          name: "React JS",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         {
-          name: "Node Js",
+          name: "Node JS",
           image: "https://nodejs.org/static/images/logo.svg",
         },
         {
-          name: "Email Js",
+          name: "Email JS",
           image: "https://www.emailjs.com/logo.png",
         },
         {
@@ -119,19 +119,19 @@ export const Bio = {
       title: "Skills that I want to learn more about",
       skills: [
         {
-          name: "Angular Js",
+          name: "Angular JS",
           image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
         },
         {
-          name: "Express Js",
+          name: "Express JS",
           image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
         },
         {
-          name: "Next Js",
+          name: "Next JS",
           image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg",
         },
         {
-          name: "Vue.js",
+          name: "Vue JS",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
         },
@@ -337,6 +337,23 @@ export const Bio = {
       ],
       category: "android app",
       webapp: "https://drive.google.com/uc?id=1z3IoWBkYzr9H50DK7qdG9TMECiQfkOvR&export=download",
+    },
+    {
+      id: 2,
+      title: "Portfolio 1.0",
+      date: "Jan 2024 - Jan 2024",
+      description:
+        "My personal web portfolio without using Framework.",
+      image:
+        "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/portfolio-1.0.png",
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Email JS",
+      ],
+      category: "android app",
+      webapp: "https://mhardev-old.vercel.app/",
     },
   ];
   
