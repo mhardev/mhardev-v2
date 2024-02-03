@@ -84,7 +84,7 @@ export const Bio = {
       ],
     },
     {
-      title: "New lerned skills",
+      title: "New learned skills",
       skills: [
         {
           name: "React JS",
@@ -232,7 +232,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://lh3.googleusercontent.com/fife/AGXqzDmeo83UIApye_CZNzSai1OUwkSv17YbHTXHphKl-EyCmPj-k8_Qfb0nwIT7XfekkuX5I3mEvczMQnGlBfL_vChDiePXXQdwfxmFCb2ue5ZIclQOEI2tN9gujDjVI60AvbP16Yw7_HMBWLwkNFT3GCe13pUMEUJ_8LWe3pkE5x1YxPD0l7hI9p-XpHlKwj7Q-6UoAds633rTu6oQXmVgnApmXoH0lY23DWEwCgQS8ILD-S8C9S1uD29DT5H0jENzXSB-YpqzzBt3ZNokqs63NoV4qxksJ-werVTeVYI3MqKwVzGAeOxZWouRWgZab2RGSxy72MZh0Qv3fHKp2-bhpcz-EJLh6nsWA_nAO_Rp-5ehvRPkAPnQ1IMv7Bej0_wkdygOq68qmQol3CgQVYRRD3pKrfPnlAHMk2gywGAnRiiTUatdptRf0RRjmMLIHE6R05EF7J6Duqc918qorIcYmxUjuJXKxx0Tiyri3ITRmexy9TimWqhMIckzfiUCw_KZ4CujNImNoFLjP8ETFPJWQbNd3-Z08pC7lquXee9M-YL_TzehrEKlZlOLimMg3FH7C9BWR0o-T_1pa4lMZIMZsMbXjCOV7KDyvT4DRSbme_DcHtfPqFn5Uz6z7b1Qu80fXBiD_Ivk04O0cSLqJGv6k_ito_60vZLGOxHh8PAb_daRF90AKbKuZigpRRHFbxGcpOk-ZqBm6yRDoj1Nh6OKV6uRo2NfQ3lqDR1yYnL4a_ZblBxi8H0sSVJOOj6f6B3rDe4p1hclKg1gzPzvEc471Xsa_Jj6LY9VYoULgD36tuRmxXXEsAuCklyEEeiu3ZsLViMM3eEc_q8ouTKo2_yt93zXsQ18aN9NQQdfeuRP0FILZu5FefbQe10RaY56Bh_W9btw5w1lCp_OAMqJ3WSWJ2ZKKal4rUEN5s2WfUt5GywRQqyPZGlvy-GxJsijy_RC85f1XPglIguz_Eihf-wUqoSDeCutWmn1KS-LJeKGiL3sD_2m3hAgZ5w0IHo7ujFzBWntTkBlCvE2CHg_Bxj8MmMVqj4MgcXmy2jzELj4h23pPpsshuVgZeM2gBJ9vIcDGx32y7eV7doUBlzHlkNKbo7AZcxTC5U7pgLDo4anipzvms8Sd_--pzt7PJopGU_mm8WXMfDAO5xhtI2575uNYQiU4Nz0Q50pYBjYtv-vh5Oc4aYxQP_wuh7ANIKRM7EqXpbF2O7VjHZYro-ecd43VyTdZeaotHqzL7m5Wp1o6vR1LYt2aKawRRNBcfbECv621Bxy6LzFyraY9pqUXJHTvucvs8VzQNlPEIf2O7Fgd2H13k8OEM7INmmnAiJg60bRIoVcdcOQIL38DswoWxYj3srr106vtUaPqAnSgXbG05b6hX8AV1c56ZeRlSpI2OPmpzq8on1_IxbkWQ83yiRtrZiUWBXEEzwrRnvy3BZi9WH8552ar33GKu4n3DGlt3LoTJHylebMe62iheXGwH6pXHJID1HjV3Ccic2pjnRopzo71bOvknBmMmw0ZUbwK3UXvnV_Nf-BXmw=w1366-h643",
+      img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Experience/Computer-Mobile-Repair-and-Home-Service.jpg",
       role: "Computer/Mobile Technician",
       company: "Computer/Mobile Repair and Home Service",
       date: "Apr 2020 - Present",
