@@ -339,7 +339,7 @@ export const projects = [
     webapp: "https://drive.google.com/uc?id=1z3IoWBkYzr9H50DK7qdG9TMECiQfkOvR&export=download",
   },
   {
-    id: 2,
+    id: 3,
     title: "Portfolio 1.0",
     date: "Jan 2024 - Jan 2024",
     description:
