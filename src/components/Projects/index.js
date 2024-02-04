@@ -112,6 +112,7 @@ const CardContainer = styled.div`
 
 const Projects = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all');
+    const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
     return (
       <Container id="projects">
         <Wrapper>
@@ -145,14 +146,14 @@ const Projects = ({openModal,setOpenModal}) => {
             }
           </ToggleButtonGroup>
           <CardContainer>
-            {toggle === 'all' && projects
-              .map((project) => (
-                <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+            {toggle === 'all' &&
+              sortedProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
               ))}
-            {projects
+            {sortedProjects
               .filter((item) => item.category === toggle)
               .map((project) => (
-                <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+                <ProjectCard key={project.id} project={project} openModal={openModal} setOpenModal={setOpenModal} />
               ))}
           </CardContainer>
         </Wrapper>
