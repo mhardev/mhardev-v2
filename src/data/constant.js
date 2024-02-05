@@ -39,7 +39,8 @@ export const skills = [
       },
       {
         name: "PHP",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+        image: 
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
       },
       {
         name: "Java",
