@@ -356,29 +356,4 @@ export const projects = [
     category: "website",
     webapp: "https://mhardev-old.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Portfolio 1.0",
-    date: "Jan 2024 - Jan 2024",
-    description:
-      "My personal web portfolio without using Framework.",
-    image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Email JS",
-    ],
-    category: "website",
-    webapp: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
