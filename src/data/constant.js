@@ -356,6 +356,23 @@ export const projects = [
     category: "website",
     webapp: "https://mhardev-old.vercel.app/",
   },
+  {
+    id: 4,
+    title: "Portfolio 1.0",
+    date: "Jan 2024 - Jan 2024",
+    description:
+      "My personal web portfolio without using Framework.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Email JS",
+    ],
+    category: "website",
+    webapp: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
+  },
 ];
 
 export const TimeLineData = [
