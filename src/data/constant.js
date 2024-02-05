@@ -139,7 +139,7 @@ export const skills = [
       {
         name: "Laravel",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
       },
       {
         name: "C++",
