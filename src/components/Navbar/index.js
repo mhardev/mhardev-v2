@@ -188,9 +188,6 @@ const Navbar = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, [isOpen]);
-  const handleLogoClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
   return (
     <Nav>
       <NavContainer>
