@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link as LinkR } from "react-router-dom";
@@ -170,6 +171,26 @@ const Navbar = () => {
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  const closeMobileMenu = () => {
+    setIsOpen(false);
+  };
+  const handleResize = () => {
+    if (window.innerWidth > 768 && isOpen) {
+      closeMobileMenu();
+    }
+  };
+  React.useEffect(() => {
+    // Add event listener when component mounts
+    window.addEventListener('resize', handleResize);
+
+    // Remove event listener when component unmounts
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [isOpen]);
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <Nav>
       <NavContainer>
@@ -215,7 +236,7 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: '#79b1ec', color: 'white', width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',background: '#79b1ec', color: 'white', width: 'max-content'}} href={Bio.github} target="_blank" onClick={closeMobileMenu}>Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavContainer>
