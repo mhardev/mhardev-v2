@@ -268,7 +268,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-1/326731630_898591627931032_7412639401885684889_n.png?stp=dst-png_p200x200&_nc_cat=109&ccb=1-7&_nc_sid=596444&_nc_eui2=AeF51CRRzCnvFQHA-xlV-nyvdbySfmg0Avt1vJJ-aDQC-0dBuX5IjbJ6YNNWJVllgcPHLrUEhm55CAuSX54FGj00&_nc_ohc=OlCdo5oDRJ0AX-xUw9K&_nc_ht=scontent.fmnl25-4.fna&oh=00_AfBzoIVSkv9pSM1DEXYNmuvvrkZ4QJoWTe9OkOwAndKglA&oe=65C387CF",
+    img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Education/sta-lucia-hs.jpg",
     school: "Sta. Lucia High School",
     date: "Jun 2014 - Apr 2018",
     desc: "I completed my junior high school education at Sta. Lucia High School.",
