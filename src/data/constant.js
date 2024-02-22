@@ -337,7 +337,7 @@ export const projects = [
       "Java",
     ],
     category: "android app",
-    webapp: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/app-release.apk",
+    webapp: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/moto-jen.apk",
   },
   {
     id: 3,
