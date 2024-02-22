@@ -337,7 +337,7 @@ export const projects = [
       "Java",
     ],
     category: "android app",
-    webapp: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/moto-jen.apk",
+    webapp: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/app-release.apk",
   },
   {
     id: 3,
@@ -355,5 +355,20 @@ export const projects = [
     ],
     category: "website",
     webapp: "https://mhardev-old.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Responsive Video",
+    date: "2023",
+    description:
+      "A website for our 04 lab 2 session in Web Systems and Technology.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+    tags: [
+      "HTML",
+      "CSS",
+    ],
+    category: "website",
+    webapp: "https://mhardev.github.io/Responsive-Video/",
   },
 ];
