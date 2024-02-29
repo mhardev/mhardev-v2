@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/file/d/1pz70OW80s5ri0aZJu6H60gvGw-W9osXN/view?usp=sharing",
+    "https://www.canva.com/design/DAF8BEHXsTk/T4Cyh64sl4FhAcg0eZphPQ/edit?utm_content=DAF8BEHXsTk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
