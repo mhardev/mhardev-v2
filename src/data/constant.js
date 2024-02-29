@@ -376,20 +376,6 @@ export const projects = [
 export const certificates = [
   {
     id: 0,
-    title: "MOTO-JEN (Admin-Side)",
-    date: "February 2020",
-    description:
-      "Completion of SHS Work Immersion at Barangay Gulod Hall.",
-    given: [
-      "Barangay Gulod Hall",
-    ],
-    image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-admin.png",
-    year: "2020",
-    link: "https://www.moto-jen.online/",
-  },
-  {
-    id: 1,
     title: "Database Foundation",
     date: "June 2022",
     description:
@@ -403,7 +389,7 @@ export const certificates = [
     link: "https://mobile.moto-jen.online/",
   },
   {
-    id: 2,
+    id: 1,
     title: "Network Foundations",
     date: "June 2022",
     description:
@@ -417,7 +403,7 @@ export const certificates = [
     link: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/app-release.apk",
   },
   {
-    id: 3,
+    id: 2,
     title: "SAP Business One Advance",
     date: "December 2022",
     description:
@@ -432,7 +418,7 @@ export const certificates = [
     link: "https://mhardev-old.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Course Basics- Development and Basic Concepts",
     date: "January 2024",
     description:
@@ -446,7 +432,7 @@ export const certificates = [
     link: "https://mhardev.github.io/Responsive-Video/",
   },
   {
-    id: 5,
+    id: 4,
     title: "HCIA-Cloud Service V3 Course",
     date: "January 2024",
     description:
@@ -460,7 +446,7 @@ export const certificates = [
     link: "https://mhardev.github.io/Responsive-Video/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Computer Hardware Basics",
     date: "February 29, 2024",
     description:

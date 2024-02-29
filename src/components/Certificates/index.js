@@ -138,12 +138,6 @@ const Certificates = ({openModal,setOpenModal}) => {
               :
               <ToggleButton value="2022" onClick={() => setToggle('2022')}>2022</ToggleButton>
             }
-            <Divider />
-            {toggle === '2020' ?
-              <ToggleButton active value="2020" onClick={() => setToggle('2020')}>2020</ToggleButton>
-              :
-              <ToggleButton value="2020" onClick={() => setToggle('2020')}>2020</ToggleButton>
-            }
           </ToggleButtonGroup>
           <CardContainer>
             {toggle === 'all' &&

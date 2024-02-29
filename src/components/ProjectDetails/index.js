@@ -181,13 +181,26 @@ const Button = styled.a`
     }
 `;
 
+const Backdrop = styled.div`
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`;
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
+
+    const handleClose = () => {
+        setOpenModal({ state: false, project: null });
+    };
+
     return (
-        <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
-                <Wrapper>
+        <Modal open={true} onClose={handleClose} BackdropComponent={Backdrop}>
+            <Container onClick={handleClose}>
+                <Wrapper onClick={(e) => e.stopPropagation()}>
                     <CloseRounded
                         style={{
                             position: "absolute",
@@ -195,7 +208,10 @@ const index = ({ openModal, setOpenModal }) => {
                             right: "20px",
                             cursor: "pointer",
                         }}
-                        onClick={() => setOpenModal({ state: false, project: null })}
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            setOpenModal({ state: false, project: null });
+                        }}
                     />
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>

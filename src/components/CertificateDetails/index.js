@@ -181,13 +181,25 @@ const Button = styled.a`
     }
 `;
 
+const Backdrop = styled.div`
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`;
+
 
 const index = ({ openModal, setOpenModal }) => {
     const certificate = openModal?.certificate;
+    const handleClose = () => {
+        setOpenModal({ state: false, certificate: null });
+    };
     return (
-        <Modal open={true} onClose={() => setOpenModal({ state: false, certificate: null })}>
-            <Container>
-                <Wrapper>
+        <Modal open={true} onClose={handleClose} BackdropComponent={Backdrop}>
+            <Container onClick={handleClose}>
+                <Wrapper onClick={(e) => e.stopPropagation()}>
                     <CloseRounded
                         style={{
                             position: "absolute",
@@ -195,7 +207,10 @@ const index = ({ openModal, setOpenModal }) => {
                             right: "20px",
                             cursor: "pointer",
                         }}
-                        onClick={() => setOpenModal({ state: false, certificate: null })}
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            setOpenModal({ state: false, certificate: null });
+                        }}
                     />
                     <Image src={certificate?.image} />
                     <Title>{certificate?.title}</Title>
