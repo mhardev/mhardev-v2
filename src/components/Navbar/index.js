@@ -167,6 +167,7 @@ const MobileLink = styled.a`
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  // eslint-disable-next-line no-unused-vars
   const theme = useTheme()
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -207,6 +208,7 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#certificates'>Certificates</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -230,6 +232,9 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
+            <MobileLink href='#certificates' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Certificates</MobileLink>
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>

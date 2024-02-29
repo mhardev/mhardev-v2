@@ -10,6 +10,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import Education from "./components/Education";
+import Certificates from "./components/Certificates";
+import CertificateDetails from "./components/CertificateDetails";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -36,8 +38,8 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  const [openModal, setOpenModal] = useState({ state: false, project: null, certificate: null });
+
   return (
     <ThemeProvider theme={Theme}>
       <Router>
@@ -48,15 +50,21 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-            <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+            <Certificates openModal={openModal} setOpenModal={setOpenModal} />
             <Contact />
           </Wrapper>
           <Footer />
-          {openModal.state &&
+          
+          {/* Conditionally render ProjectDetails or CertificateDetails based on openModal.state */}
+          {openModal.state && openModal.project && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          )}
+          {openModal.state && openModal.certificate && (
+            <CertificateDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
         </Body>
       </Router>
     </ThemeProvider>
