@@ -384,9 +384,9 @@ export const certificates = [
       "Oracle",
     ],
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-home.png",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/databasefoundation.jpg",
     year: "2022",
-    link: "https://mobile.moto-jen.online/",
+    link: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/databasefoundation.jpg",
   },
   {
     id: 1,
@@ -398,9 +398,9 @@ export const certificates = [
       "Huawei",
     ],
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MOTO-JEN/moto-jen-app.jpg",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/networkfoundation-thumbnail.jpg",
     year: "2022",
-    link: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/app-release.apk",
+    link: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/networkfoundation.jpg",
   },
   {
     id: 2,
