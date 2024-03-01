@@ -376,7 +376,7 @@ export const projects = [
 export const certificates = [
   {
     id: 0,
-    title: "Database Foundation",
+    title: "Database Foundations",
     date: "June 2022",
     description:
       "Course Completion Database Foundations at STI College Novaliches.",
