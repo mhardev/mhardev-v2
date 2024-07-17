@@ -399,7 +399,7 @@ export const projects = [
     description:
       "A mini project online with Weather API.",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WeatherAPI/weather-app.png",
     tags: [
       "HTML",
       "CSS",
