@@ -275,8 +275,8 @@ export const education = [
     id: 0,
     img: "https://www.sti.edu/images/stilogo-push.png",
     school: "STI College Novaliches",
-    date: "Sep 2020 - Jun 2024",
-    desc: "I am currently pursuing a Bachelor of Science in Information Technology at STI College Novaliches.",
+    date: "Sep 2020 - Jul 2024",
+    desc: "College graduated at STI College Novaliches with degree of Bachelor of Science in Information Technology.",
     degree: "Bachelor of Science in Information Technology (BSIT)",
   },
   {
@@ -284,7 +284,7 @@ export const education = [
     img: "https://www.sti.edu/images/stilogo-push.png",
     school: "STI College Novaliches",
     date: "Jun 2018 - Apr 2020",
-    desc: "I completed my senior high school education at STI College Novaliches, where I studied IT subjects.",
+    desc: "Senior High School graduated at STI College Novaliches with course of IT-MAWD, where I study IT subjects.",
     degree: "IT - Mobile Application and Web Development (IT-MAWD).",
   },
   {
@@ -292,14 +292,14 @@ export const education = [
     img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Education/sta-lucia-hs.jpg",
     school: "Sta. Lucia High School",
     date: "Jun 2014 - Apr 2018",
-    desc: "I completed my junior high school education at Sta. Lucia High School.",
+    desc: "Junior High School graduated at Sta. Lucia High School.",
   },
   {
     id: 3,
     img: "https://graph.facebook.com/1424391204259876/picture?type=square",
     school: "Rosa L. Susano Novaliches Elementary School",
     date: "Jun 2008 - Mar 2014",
-    desc: "I completed my elementary education at Rosa L. Susano Novaliches Elementary School.",
+    desc: "Elementary graduated at Rosa L. Susano Novaliches Elementary School.",
   },
 ];
 
