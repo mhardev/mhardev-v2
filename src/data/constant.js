@@ -238,7 +238,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://commons.wikimedia.org/wiki/File:Commission_on_Higher_Education_(CHEd).svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
     role: "Project Technical Staff I (PTS-I) - COS",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "May 2024 - Present",
@@ -246,7 +246,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://commons.wikimedia.org/wiki/File:Commission_on_Higher_Education_(CHEd).svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
     role: "Technical Support / Programming (Trainee)",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "Feb 2024 - May 2024",
@@ -394,7 +394,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Weather API (Mini Project)",
+    title: "Weather API (Mini project)",
     date: "2023",
     description:
       "A mini project online with Weather API.",
@@ -403,6 +403,7 @@ export const projects = [
     tags: [
       "HTML",
       "CSS",
+      "JavaScript",
     ],
     category: "website",
     webapp: "https://mhar-weather-app.vercel.app/",
