@@ -114,6 +114,16 @@ export const skills = [
         name: "Devicon",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/devicon/devicon-original.svg",
       },
+      {
+        name: "Laravel",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
+      },
+      {
+        name: "Livewire",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/livewire/livewire-original-wordmark.svg"
+      }
     ],
   },
   {
@@ -135,11 +145,6 @@ export const skills = [
         name: "Vue JS",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
-      },
-      {
-        name: "Laravel",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
       },
       {
         name: "C++",
@@ -233,6 +238,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://commons.wikimedia.org/wiki/File:Commission_on_Higher_Education_(CHEd).svg",
+    role: "Project Technical Staff I (PTS-I) - COS",
+    company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
+    date: "May 2024 - Present",
+    desc: "I assign as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
+  },
+  {
+    id: 1,
+    img: "https://commons.wikimedia.org/wiki/File:Commission_on_Higher_Education_(CHEd).svg",
+    role: "Technical Support / Programming (Trainee)",
+    company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
+    date: "Feb 2024 - May 2024",
+    desc: "Technical Support / Programming (Trainee) in MIS Unit at CHEDRO-NCR. (IT Practicum)",
+  },
+  {
+    id: 2,
     img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Experience/Computer-Mobile-Repair-and-Home-Service.jpg",
     role: "Computer/Mobile Technician",
     company: "Computer/Mobile Repair and Home Service",
@@ -240,12 +261,12 @@ export const experiences = [
     desc: "Computer/Mobile Technician at Computer/Mobile Repair and Home Service since April 2020.",
   },
   {
-    id: 1,
+    id: 3,
     img: "https://th.bing.com/th/id/OIP.JFxVywJeInBSGRoo4n17owHaHa?rs=1&pid=ImgDetMain",
     role: "CCTV Monitoring Assistant",
     company: "Barangay Gulod Hall",
     date: "Jan 2020 - Feb 2020",
-    desc: "CCTV Monitoring Assistant at BPS Office, Barangay Gulod Hall. (SHS Internship)",
+    desc: "CCTV Monitoring Assistant in BPS Office at Barangay Gulod Hall. (SHS Work Immersion)",
   },
 ];
 
@@ -370,6 +391,21 @@ export const projects = [
     ],
     category: "website",
     webapp: "https://mhardev.github.io/Responsive-Video/",
+  },
+  {
+    id: 5,
+    title: "Weather API (Mini Project)",
+    date: "2023",
+    description:
+      "A mini project online with Weather API.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+    tags: [
+      "HTML",
+      "CSS",
+    ],
+    category: "website",
+    webapp: "https://mhar-weather-app.vercel.app/",
   },
 ];
 
