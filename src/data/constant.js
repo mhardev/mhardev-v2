@@ -380,7 +380,7 @@ export const projects = [
   {
     id: 4,
     title: "Responsive Video",
-    date: "2023",
+    date: "Mar 2023",
     description:
       "A website for our 04 lab 2 session in Web Systems and Technology.",
     image:
@@ -395,7 +395,7 @@ export const projects = [
   {
     id: 5,
     title: "Weather API (Mini project)",
-    date: "2023",
+    date: "May 2024",
     description:
       "A mini project online with Weather API.",
     image:
