@@ -48,21 +48,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
-        name: "C#",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
         name: "JQuery",
         image:
           "https://cdn.icon-icons.com/icons2/2699/PNG/512/jquery_logo_icon_167804.png",
@@ -76,11 +61,6 @@ export const skills = [
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "FileZilla",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/filezilla/filezilla-plain.svg",
       },
     ],
   },
@@ -152,6 +132,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
       },
       {
+        name: "C#",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+      },
+      {
         name: ".NET",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg",
@@ -165,6 +150,16 @@ export const skills = [
         name: "Kotlin",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "XML",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
       },
       {
         name: "Xamarin",
@@ -207,6 +202,11 @@ export const skills = [
           "https://clipground.com/images/eclipse-logo-png-3.png",
       },
       {
+        name: "FileZilla",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/filezilla/filezilla-plain.svg",
+      },
+      {
         name: "JCreator",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/03/Jc_logo.png",
@@ -239,9 +239,9 @@ export const experiences = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "Project Technical Staff I (PTS-I) - COS",
+    role: "Web Technical Staff I (PTS-I) - COS",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
-    date: "May 2024 - Present",
+    date: "May 2024 - December 2024",
     desc: "I assign as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
   },
   {
@@ -251,22 +251,6 @@ export const experiences = [
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "Feb 2024 - May 2024",
     desc: "Technical Support / Programming (Trainee) in MIS Unit at CHEDRO-NCR. (IT Practicum)",
-  },
-  {
-    id: 2,
-    img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Experience/Computer-Mobile-Repair-and-Home-Service.jpg",
-    role: "Computer/Mobile Technician",
-    company: "Computer/Mobile Repair and Home Service",
-    date: "Apr 2020 - Present",
-    desc: "Computer/Mobile Technician at Computer/Mobile Repair and Home Service since April 2020.",
-  },
-  {
-    id: 3,
-    img: "https://th.bing.com/th/id/OIP.JFxVywJeInBSGRoo4n17owHaHa?rs=1&pid=ImgDetMain",
-    role: "CCTV Monitoring Assistant",
-    company: "Barangay Gulod Hall",
-    date: "Jan 2020 - Feb 2020",
-    desc: "CCTV Monitoring Assistant in BPS Office at Barangay Gulod Hall. (SHS Work Immersion)",
   },
 ];
 

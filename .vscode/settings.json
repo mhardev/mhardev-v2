@@ -18,5 +18,10 @@
         "Susano",
         "webfonts",
         "Zilla"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#591409",
+        "titleBar.activeBackground": "#7D1D0C",
+        "titleBar.activeForeground": "#FFFCFB"
+    }
 }
