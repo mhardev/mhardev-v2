@@ -239,7 +239,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "Web Technical Staff I (PTS-I) - COS",
+    role: "IT Programmer",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "May 2024 - December 2024",
     desc: "I assign as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
@@ -247,7 +247,7 @@ export const experiences = [
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "Technical Support / Programming (Trainee)",
+    role: "Programmer Trainee",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "Feb 2024 - May 2024",
     desc: "Technical Support / Programming (Trainee) in MIS Unit at CHEDRO-NCR. (IT Practicum)",
@@ -422,21 +422,6 @@ export const certificates = [
       "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/networkfoundation-thumbnail.jpg",
     year: "2022",
     link: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Certificates/2022/networkfoundation.jpg",
-  },
-  {
-    id: 2,
-    title: "SAP Business One Advance",
-    date: "December 2022",
-    description:
-      "Course Completion SAP Business One Advance at STI College Novaliches",
-    given: [
-      "SAP",
-      "FIT Academy",
-    ],  
-    image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Portfolio-1.0/portfolio-1.0.png",
-    year: "2022",
-    link: "https://mhardev-old.vercel.app/",
   },
   {
     id: 3,
