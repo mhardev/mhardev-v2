@@ -433,9 +433,9 @@ export const certificates = [
       "Huawei",
     ],
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Certificates/2024/combasics.png",
     year: "2024",
-    link: "https://mhardev.github.io/Responsive-Video/",
+    link: "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Certificates/2024/combasics.png",
   },
   {
     id: 4,
@@ -447,9 +447,9 @@ export const certificates = [
       "Huawei",
     ],
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Certificates/2024/hcia.png",
     year: "2024",
-    link: "https://mhardev.github.io/Responsive-Video/",
+    link: "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Certificates/2024/hcia.png",
   },
   {
     id: 5,
