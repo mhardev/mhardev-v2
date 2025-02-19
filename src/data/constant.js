@@ -5,7 +5,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am detail-oriented and motivated web programmer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am detail-oriented and motivated web developer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/mhardev",
   resume:
     "https://drive.google.com/open?id=1-02EmQuMrIl8Dbj3aXlF5jDu10qt451H&usp=drive_fs",
@@ -240,6 +240,11 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "XAMPP",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
       },
     ],
   },
