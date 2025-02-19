@@ -63,7 +63,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 MharDev. All rights reserved.
+          &copy; (new Date().getFullYear()) MharDev. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
