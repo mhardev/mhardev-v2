@@ -50,7 +50,7 @@ export const skills = [
       {
         name: "JQuery",
         image:
-          "https://cdn.icon-icons.com/icons2/2699/PNG/512/jquery_logo_icon_167804.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg",
       },
       {
         name: "AJAX",
