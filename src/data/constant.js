@@ -5,10 +5,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am detail-oriented and motivated web programmer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/mhardev",
   resume:
-    "https://www.canva.com/design/DAF8BEHXsTk/T4Cyh64sl4FhAcg0eZphPQ/edit?utm_content=DAF8BEHXsTk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "https://drive.google.com/open?id=1-02EmQuMrIl8Dbj3aXlF5jDu10qt451H&usp=drive_fs",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
@@ -103,7 +103,17 @@ export const skills = [
         name: "Livewire",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/livewire/livewire-original-wordmark.svg"
-      }
+      },
+      {
+        name: "Vue JS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+      },
+      {
+        name: "TailwindCSS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+      },
     ],
   },
   {
@@ -120,11 +130,6 @@ export const skills = [
       {
         name: "Next JS",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg",
-      },
-      {
-        name: "Vue JS",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
       },
       {
         name: "C++",
@@ -170,6 +175,11 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "SQLite",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg",
       },
     ],
   },
