@@ -305,6 +305,21 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Responsive Video",
+    date: "Mar 2023",
+    description:
+      "A website for our 04 lab 2 session in Web Systems and Technology.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
+    tags: [
+      "HTML",
+      "CSS",
+    ],
+    category: "website",
+    webapp: "https://mhardev.github.io/Responsive-Video/",
+  },
+  {
+    id: 1,
     title: "MOTO-JEN (Admin-Side)",
     date: "Feb 2023 - Jan 2024",
     description:
@@ -324,7 +339,7 @@ export const projects = [
     webapp: "https://www.moto-jen.online/",
   },
   {
-    id: 1,
+    id: 2,
     title: "MOTO-JEN (User-Side)",
     date: "Feb 2023 - Jan 2024",
     description:
@@ -344,7 +359,7 @@ export const projects = [
     webapp: "https://mobile.moto-jen.online/",
   },
   {
-    id: 2,
+    id: 3,
     title: "MOTO-JEN App",
     date: "Feb 2023 - Jan 2024",
     description:
@@ -360,9 +375,9 @@ export const projects = [
     webapp: "https://github.com/mhardev/mhardev-v2/raw/main/src/apk/app-release.apk",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio 1.0",
-    date: "Jan 2024 - Jan 2024",
+    date: "Jan 2024",
     description:
       "My personal web portfolio without using Framework.",
     image:
@@ -375,21 +390,6 @@ export const projects = [
     ],
     category: "website",
     webapp: "https://mhardev-old.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Responsive Video",
-    date: "Mar 2023",
-    description:
-      "A website for our 04 lab 2 session in Web Systems and Technology.",
-    image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WebSystems/responsive-video.png",
-    tags: [
-      "HTML",
-      "CSS",
-    ],
-    category: "website",
-    webapp: "https://mhardev.github.io/Responsive-Video/",
   },
   {
     id: 5,
@@ -406,6 +406,22 @@ export const projects = [
     ],
     category: "website",
     webapp: "https://mhar-weather-app.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "CVMC",
+    date: "Feb 2025",
+    description:
+      "A simple landing page project for CV Medical Clinic.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/CVMC/cvmc.png",
+    tags: [
+      "TailwindCSS",
+      "VueJS",
+      "EmailJS",
+    ],
+    category: "website",
+    webapp: "https://cvmc.vercel.app/",
   },
 ];
 
