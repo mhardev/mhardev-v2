@@ -8,7 +8,7 @@ export const Bio = {
     "I am detail-oriented and motivated web developer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/open?id=1-02EmQuMrIl8Dbj3aXlF5jDu10qt451H&usp=drive_fs",
+    "https://drive.google.com/file/d/1jV33FPZnlR9uKS1sl5VGxWbW_4utrQj0/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
