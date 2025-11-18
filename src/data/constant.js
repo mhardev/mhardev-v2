@@ -5,7 +5,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am detail-oriented and motivated web developer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Detail-oriented individual dedicated in troubleshooting hardware, software, and network issues. Proficient in diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development. Highly adaptable, organized, and eager to continuously learn and improve.",
   github: "https://github.com/mhardev",
   resume:
     "https://drive.google.com/file/d/1jV33FPZnlR9uKS1sl5VGxWbW_4utrQj0/view?usp=sharing",
@@ -16,7 +16,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Background skills",
+    title: "Programming skills",
     skills: [
       {
         name: "HTML",
@@ -62,10 +62,15 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      {
+        name: "Laravel",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
+      },
     ],
   },
   {
-    title: "New learned skills",
+    title: "New Learned skills",
     skills: [
       {
         name: "React JS",
@@ -95,11 +100,6 @@ export const skills = [
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/devicon/devicon-original.svg",
       },
       {
-        name: "Laravel",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
-      },
-      {
         name: "Livewire",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/livewire/livewire-original-wordmark.svg"
@@ -114,10 +114,20 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg",
       },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "SQLite",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg",
+      },
     ],
   },
   {
-    title: "Skills that I want to learn more about",
+    title: "Programming Skills that I want to learn more about",
     skills: [
       {
         name: "Angular JS",
@@ -170,16 +180,6 @@ export const skills = [
         name: "Xamarin",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "SQLite",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg",
       },
     ],
   },
@@ -245,6 +245,56 @@ export const skills = [
         name: "XAMPP",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
+      },
+    ],
+  },
+  {
+    title: "Technical Skills",
+    skills: [
+      {
+        name: "Hardware, Software, & Network Troubleshooting",
+      },
+      {
+        name: "JIRA Ticketing System",
+      },
+      {
+        name: "Active Directory and Group Policy Management",
+      },
+      {
+        name: "Remote Desktop Support",
+      },
+      {
+        name: "Web Development / Programming",
+      },
+      {
+        name: "Office 365 Suite",
+      },
+    ],
+  },
+  
+  {
+    title: "Soft Skills",
+    skills: [
+      {
+        name: "Adaptability",
+      },
+      {
+        name: "Attention to Detail",
+      },
+      {
+        name: "Communication",
+      },
+      {
+        name: "Customer Service",
+      },
+      {
+        name: "Problem-Solving",
+      },
+      {
+        name: "Time Management",
+      },
+      {
+        name: "Willing to Learn",
       },
     ],
   },
