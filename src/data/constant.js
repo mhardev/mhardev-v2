@@ -253,21 +253,33 @@ export const skills = [
     skills: [
       {
         name: "Hardware, Software, & Network Troubleshooting",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "JIRA Ticketing System",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Active Directory and Group Policy Management",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Remote Desktop Support",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Web Development / Programming",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Office 365 Suite",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
     ],
   },
@@ -277,24 +289,38 @@ export const skills = [
     skills: [
       {
         name: "Adaptability",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Attention to Detail",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Communication",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Customer Service",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Problem-Solving",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Time Management",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
         name: "Willing to Learn",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
     ],
   },
