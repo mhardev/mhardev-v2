@@ -396,7 +396,7 @@ export const projects = [
     title: "Weather API (Mini project)",
     date: "May 2024",
     description:
-      "A mini project  online with Weather API.",
+      "A mini project online weather with Weather API.",
     image:
       "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/WeatherAPI/weather-app.png",
     tags: [
@@ -428,7 +428,7 @@ export const projects = [
     title: "Weather Website with MeteoSource API",
     date: "Jul 2025",
     description:
-      "A mini project weather online using Vue and MeteoSource API.",
+      "An online weather website using Vue and MeteoSource API.",
     image:
       "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MeteoSourceAPI/mhardev-weather-app.png",
     tags: [
