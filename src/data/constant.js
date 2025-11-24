@@ -330,7 +330,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Experience/[24]7.ai_PH.png",
+    img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Experience/%5B24%5D7.ai_PH.jpg",
     role: "Associate IT Engineer (Project-based IT Associate)",
     company: "[24]]7.ai Philippines",
     date: "April 2025 - Present",
