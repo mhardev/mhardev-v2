@@ -2,7 +2,8 @@ export const Bio = {
   name: "Joshua Mhar Alcubilla",
   roles: [
     "Web Developer",
-    "Programmer",
+    "IT Programmer",
+    "Associate IT Engineer",
   ],
   description:
     "Detail-oriented individual dedicated in troubleshooting hardware, software, and network issues. Proficient in diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development. Highly adaptable, organized, and eager to continuously learn and improve.",
