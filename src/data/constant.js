@@ -329,14 +329,22 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Experience/[24]7.ai_PH.png",
+    role: "Associate IT Engineer (Project-based IT Associate)",
+    company: "[24]]7.ai Philippines",
+    date: "April 2025 - Present",
+    desc: "Proficient in troubleshooting hardware, software, and network issues. Diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development.",
+  },
+  {
+    id: 1,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
     role: "IT Programmer",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "May 2024 - December 2024",
-    desc: "I assign as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
+    desc: "Assigned as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
     role: "Programmer Trainee",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
