@@ -490,7 +490,7 @@ export const projects = [
       "JavaScript",
     ],
     category: "website",
-    webapp: "https://mhar-weather-app.vercel.app/",
+    webapp: "https://mhar-weather-old.vercel.app/",
   },
   {
     id: 6,
