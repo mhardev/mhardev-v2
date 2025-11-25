@@ -24,6 +24,7 @@ The primary goal of this project is to create a visually appealing and performan
 - **React.js**
 - **Vite.js**
 - **Node.js**
+- **EmailJS**
 - **JavaScript (ES6+)** 
 
 ---
