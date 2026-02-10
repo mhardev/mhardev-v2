@@ -148,10 +148,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_buc16bi",
-        "template_4ql3lie",
+        "service_2n7x7jd",
+        "template_1uipldc",
         form.current,
-        "dZho8DDRbgRF61_80"
+        "X8-ZymCwFzNGePuAA"
       )
       .then(
         (result) => {
