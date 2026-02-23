@@ -9,7 +9,7 @@ export const Bio = {
     "Detail-oriented individual dedicated in troubleshooting hardware, software, and network issues. Proficient in diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development. Highly adaptable, organized, and eager to continuously learn and improve.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/file/d/1jV33FPZnlR9uKS1sl5VGxWbW_4utrQj0/view?usp=sharing",
+    "https://drive.google.com/file/d/1Z1Vx1MTamVmr_RXRht7sTAdM-vubG2F0/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
