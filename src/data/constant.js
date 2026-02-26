@@ -111,9 +111,18 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
       },
       {
+        name: "Next JS",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg",
+      },
+      {
         name: "TailwindCSS",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+      },
+      {
+        name: "Shadcn UI",
+        image:
+          "https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
       },
       {
         name: "MongoDB",
@@ -137,10 +146,6 @@ export const skills = [
       {
         name: "Express JS",
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
-      },
-      {
-        name: "Next JS",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg",
       },
       {
         name: "C++",
@@ -171,6 +176,11 @@ export const skills = [
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
       },
       {
         name: "XML",
@@ -488,6 +498,7 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript",
+      "OpenWeather API",
     ],
     category: "website",
     webapp: "https://mhar-weather-old.vercel.app/",
@@ -501,9 +512,9 @@ export const projects = [
     image:
       "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/CVMC/cvmc.png",
     tags: [
-      "TailwindCSS",
-      "VueJS",
-      "EmailJS",
+      "Tailwind CSS",
+      "Vue JS",
+      "Email JS",
     ],
     category: "website",
     webapp: "https://cvmc.vercel.app/",
@@ -518,11 +529,30 @@ export const projects = [
       "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MeteoSourceAPI/mhardev-weather-app.png",
     tags: [
       "TailwindCSS",
-      "VueJS",
-      "MeteoSourceAPI",
+      "Shadcn UI",
+      "Vue JS",
+      "MeteoSource API",
     ],
     category: "website",
     webapp: "https://mhardev-weather-app.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Elite Barber Shop",
+    date: "Feb 2026",
+    description:
+      "A responsive landing page for Elite Barbershop.",
+    image:
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MeteoSourceAPI/mhardev-weather-app.png",
+    tags: [
+      "Tailwind CSS",
+      "Shadcn UI",
+      "ReactJS",
+      "Next JS",
+      "Email JS",
+    ],
+    category: "website",
+    webapp: "https://elite-barbershop.vercel.app/",
   },
 ];
 
