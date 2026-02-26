@@ -71,3 +71,11 @@ Based on your public repository **mhardev-v2**.
 ```bash
 git clone https://github.com/mhardev/mhardev-v2.git
 cd mhardev-v2
+```
+
+---
+
+## 👨‍💻 Developer
+
+Joshua Mhar M. Alcubilla  
+Web Developer
