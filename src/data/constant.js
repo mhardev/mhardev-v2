@@ -430,7 +430,7 @@ export const projects = [
       "PHP",
       "MySQL",
     ],
-    category: "web app",
+    category: "website",
     webapp: "https://www.moto-jen.online/",
   },
   {
@@ -516,7 +516,10 @@ export const projects = [
       "Vue JS",
       "Email JS",
     ],
-    category: "website",
+    category: [
+      "website",
+      "web app",
+    ],
     webapp: "https://cvmc.vercel.app/",
   },
   {
@@ -533,7 +536,10 @@ export const projects = [
       "Vue JS",
       "MeteoSource API",
     ],
-    category: "website",
+    category: [
+      "website",
+      "web app",
+    ],
     webapp: "https://mhardev-weather-app.vercel.app/",
   },
   {
@@ -551,7 +557,10 @@ export const projects = [
       "Next JS",
       "Email JS",
     ],
-    category: "website",
+    category: [
+      "website",
+      "web app",
+    ],
     webapp: "https://elite-barbershop.vercel.app/",
   },
 ];
