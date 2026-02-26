@@ -450,7 +450,7 @@ export const projects = [
       "PHP",
       "MySQL",
     ],
-    category: "web app",
+    category: "website",
     webapp: "https://mobile.moto-jen.online/",
   },
   {
