@@ -543,7 +543,7 @@ export const projects = [
     description:
       "A responsive landing page for Elite Barbershop.",
     image:
-      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/MeteoSourceAPI/mhardev-weather-app.png",
+      "https://raw.githubusercontent.com/mhardev/mhardev-v2/main/src/images/Projects/Elite-BarberShop/elite-barbershop.png",
     tags: [
       "Tailwind CSS",
       "Shadcn UI",
