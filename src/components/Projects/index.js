@@ -118,7 +118,7 @@ const Projects = ({openModal,setOpenModal}) => {
         <Wrapper>
           <Title>Projects</Title>
           <Desc>
-            I have worked web app and android app projects. Here are some of my projects.
+            I have worked website, web app and android app projects. Here are some of my projects.
           </Desc>
           <ToggleButtonGroup >
             {toggle === 'all' ?
