@@ -283,7 +283,7 @@ export const experiences = [
     role: "Junior Programmer",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "Feb 2024 - May 2024",
-    desc: "Technical Support / Programming (Trainee) in MIS Unit at CHEDRO-NCR. (IT Practicum)",
+    desc: "Technical Support / Junior Programmer in MIS Unit at CHEDRO-NCR. (IT Practicum)",
   },
 ];
 
