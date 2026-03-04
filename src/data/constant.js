@@ -280,7 +280,7 @@ export const experiences = [
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "Programmer Trainee",
+    role: "Junior Programmer",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "Feb 2024 - May 2024",
     desc: "Technical Support / Programming (Trainee) in MIS Unit at CHEDRO-NCR. (IT Practicum)",
