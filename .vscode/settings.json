@@ -20,6 +20,8 @@
         "Zilla"
     ],
     "workbench.colorCustomizations": {
+        "statusBar.noFolderBackground": "#033333",
+        "statusBar.noFolderForeground": "#E9FEFE",
         "activityBar.background": "#033333",
         "titleBar.activeBackground": "#054848",
         "titleBar.activeForeground": "#E9FEFE",
@@ -28,9 +30,7 @@
         "statusBar.background": "#033333",
         "statusBar.foreground": "#E9FEFE",
         "statusBar.debuggingBackground": "#033333",
-        "statusBar.debuggingForeground": "#E9FEFE",
-        "statusBar.noFolderBackground": "#033333",
-        "statusBar.noFolderForeground": "#E9FEFE"
+        "statusBar.debuggingForeground": "#E9FEFE"
     },
     "windowColors.baseColor": "#0a9e9e"
 }

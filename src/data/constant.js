@@ -1,12 +1,11 @@
 export const Bio = {
   name: "Joshua Mhar Alcubilla",
   roles: [
-    "Web Developer",
+    "Junior Web Developer",
     "IT Programmer",
-    "Associate IT Engineer",
   ],
   description:
-    "Detail-oriented individual dedicated in troubleshooting hardware, software, and network issues. Proficient in diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development. Highly adaptable, organized, and eager to continuously learn and improve.",
+    "Junior Web Developer with hands-on experience in Laravel-based web applications, PHP, and modern JavaScript frameworks including Vue.js and React.js. Experienced in feature development, system testing, debugging, and maintaining production systems. Strong problem-solving mindset with IT systems background. Highly adaptable, organized, and eager to continuously learn and improve.",
   github: "https://github.com/mhardev",
   resume:
     "https://drive.google.com/file/d/1Z1Vx1MTamVmr_RXRht7sTAdM-vubG2F0/view?usp=sharing",
@@ -259,82 +258,6 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Technical Skills",
-    skills: [
-      {
-        name: "Hardware, Software, & Network Troubleshooting",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "JIRA Ticketing System",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Active Directory and Group Policy Management",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Remote Desktop Support",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Web Development / Programming",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Office 365 Suite",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-    ],
-  },
-  
-  {
-    title: "Soft Skills",
-    skills: [
-      {
-        name: "Adaptability",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Attention to Detail",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Communication",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Customer Service",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Problem-Solving",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Time Management",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-      {
-        name: "Willing to Learn",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
-      },
-    ],
-  },
 ];
 
 export const experiences = [
@@ -344,7 +267,7 @@ export const experiences = [
     role: "Associate IT Engineer (Project-based IT Associate)",
     company: "[24]]7.ai Philippines",
     date: "April 2025 - Present",
-    desc: "Proficient in troubleshooting hardware, software, and network issues. Diagnosing and resolving end-user problems with minimal downtime. Knowledgeable in Windows OS, Active Directory, Office 365, remote support tools, and Web development.",
+    desc: "Proficient in troubleshooting hardware, software, and network issues. Diagnosing and resolving end-user software and system problems with minimal downtime.",
   },
   {
     id: 1,
@@ -352,7 +275,7 @@ export const experiences = [
     role: "IT Programmer",
     company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
     date: "May 2024 - December 2024",
-    desc: "Assigned as PTS-I in MIS Unit at CHEDRO-NCR. For develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
+    desc: "Develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
   },
   {
     id: 2,
