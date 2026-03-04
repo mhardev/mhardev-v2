@@ -8,7 +8,7 @@ export const Bio = {
     "Junior Web Developer with hands-on experience in Laravel-based web applications, PHP, and modern JavaScript frameworks including Vue.js and React.js. Experienced in feature development, system testing, debugging, and maintaining production systems. Strong problem-solving mindset with IT systems background. Highly adaptable, organized, and eager to continuously learn and improve.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/file/d/1Z1Vx1MTamVmr_RXRht7sTAdM-vubG2F0/view?usp=sharing",
+    "https://drive.google.com/file/d/1uovqFgZ0nb4Y3UUiZjJp50V3kjKTVgQ8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
