@@ -456,7 +456,7 @@ export const projects = [
     tags: [
       "TailwindCSS",
       "Shadcn UI",
-      "Vue JS",
+      "React JS",
       "MeteoSource API",
     ],
     category: [
