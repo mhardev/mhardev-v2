@@ -2,15 +2,15 @@ export const Bio = {
   name: "Joshua Mhar Alcubilla",
   roles: [
     "IT Support",
-    "IT Support Specialist",
-    "Technical Support Analyst",
+    "Technical Support Specialist",
+    "Service Desk Analyst",
     "Junior Web Developer",
   ],
   description:
     "Detail-oriented aspiring IT Support Specialist professional with 1 year and 5 months of experience in L1 support, incident management, and technical troubleshooting. Proven ability to resolve high-volume tickets, manage Active Directory environments, and diagnose VPN/network issues using Cisco and Palo Alto technologies. Skilled in JIRA ticketing systems and SLA compliance, with a focus on improving end-user productivity and minimizing downtime.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/file/d/1uovqFgZ0nb4Y3UUiZjJp50V3kjKTVgQ8/view?usp=sharing",
+    "https://drive.google.com/file/d/1_41eLAJWop1UsjBcc6hWoX61KLehRbef/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
@@ -144,17 +144,17 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Incident Management",
+        name: "Incident Management",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Ticketing",
+        name: "Ticketing",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	SLA Compliance",
+        name: "SLA Compliance",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
@@ -164,32 +164,32 @@ export const skills = [
     title: "Networking",
     skills: [
       {
-        name: "•	VPN",
+        name: "VPN",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	DHCP",
+        name: "DHCP",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	TCP/IP",
+        name: "TCP/IP",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Network Diagnostics",
+        name: "Network Diagnostics",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Wireshark",
+        name: "Wireshark",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Patch Panel and Switch Port Tracing",
+        name: "Patch Panel and Switch Port Tracing",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
@@ -199,17 +199,17 @@ export const skills = [
     title: "Systems and Administration",
     skills: [
       {
-        name: "•	Active Directory",
+        name: "Active Directory",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Windows",
+        name: "Windows",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "•	Linux/Unix",
+        name: "Linux/Unix",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
@@ -538,10 +538,10 @@ export const certificates = [
   },
   {
     id: 3,
-    title: "Course Basics- Development and Basic Concepts",
+    title: "Cloud Basics- Development and Basic Concepts",
     date: "January 2024",
     description:
-      "Course Certification Course Basics-Development and Basic Concepts at Huawei and STI College Novaliches.",
+      "Course Certification Cloud Basics-Development and Basic Concepts at Huawei and STI College Novaliches.",
     given: [
       "Huawei",
     ],

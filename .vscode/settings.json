@@ -32,5 +32,6 @@
         "statusBar.debuggingBackground": "#033333",
         "statusBar.debuggingForeground": "#E9FEFE"
     },
-    "windowColors.baseColor": "#0a9e9e"
+    "windowColors.baseColor": "#0a9e9e",
+    "DockerRun.DisableAutoGenerateConfig": true
 }
