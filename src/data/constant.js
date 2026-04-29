@@ -3,7 +3,7 @@ export const Bio = {
   roles: [
     "IT Support",
     "IT Support Specialist",
-    "Technical Support Analyst / Specialist",
+    "Technical Support Analyst",
     "Junior Web Developer",
   ],
   description:
