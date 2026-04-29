@@ -1,11 +1,13 @@
 export const Bio = {
   name: "Joshua Mhar Alcubilla",
   roles: [
+    "IT Support",
+    "IT Support Specialist",
+    "Technical Support Analyst / Specialist",
     "Junior Web Developer",
-    "IT Programmer",
   ],
   description:
-    "Junior Web Developer with hands-on experience in Laravel-based web applications, PHP, and modern JavaScript frameworks including Vue.js and React.js. Experienced in feature development, system testing, debugging, and maintaining production systems. Strong problem-solving mindset with IT systems background. Highly adaptable, organized, and eager to continuously learn and improve.",
+    "Detail-oriented aspiring IT Support Specialist professional with 1 year and 5 months of experience in L1 support, incident management, and technical troubleshooting. Proven ability to resolve high-volume tickets, manage Active Directory environments, and diagnose VPN/network issues using Cisco and Palo Alto technologies. Skilled in JIRA ticketing systems and SLA compliance, with a focus on improving end-user productivity and minimizing downtime.",
   github: "https://github.com/mhardev",
   resume:
     "https://drive.google.com/file/d/1Z1Vx1MTamVmr_RXRht7sTAdM-vubG2F0/view?usp=sharing",
@@ -16,26 +18,12 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Programming skills",
+    title: "Programming",
     skills: [
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
       {
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
         name: "PHP",
@@ -47,15 +35,15 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
+    ],
+  },
+  {
+    title: "Database",
+    skills: [
       {
-        name: "JQuery",
+        name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg",
-      },
-      {
-        name: "AJAX",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mmongodb-original-wordmark.svg",
       },
       {
         name: "MySQL",
@@ -63,15 +51,20 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Laravel",
+        name: "SQLite",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg",
       },
     ],
   },
   {
-    title: "New Learned skills",
+    title: "Frameworks & Libraries",
     skills: [
+      {
+        name: "Laravel",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/b/bf/Laravel-four-icon.png",
+      },
       {
         name: "React JS",
         image:
@@ -80,24 +73,6 @@ export const skills = [
       {
         name: "Node JS",
         image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Email JS",
-        image: "https://www.emailjs.com/logo.png",
-      },
-      {
-        name: "npm",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg",
-      },
-      
-      {
-        name: "Material UI",
-        image:
-          "data:image/png;base64,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",
-      },
-      {
-        name: "Devicon",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/devicon/devicon-original.svg",
       },
       {
         name: "Livewire",
@@ -114,6 +89,10 @@ export const skills = [
         image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg",
       },
       {
+        name: "Bootstrap",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg",
+      },
+      {
         name: "TailwindCSS",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg",
@@ -124,77 +103,111 @@ export const skills = [
           "https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
       },
       {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        name: "Material UI",
+        image: 
+          "data:image/png;base64,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",
       },
       {
-        name: "SQLite",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg",
+        name: "Devicon",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/devicon/devicon-original.svg",
       },
+      {
+        name: "npm",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg",
+      },
+      {
+        name: "AJAX",
+        image: "https://upload.wikimedia.org/wikipedia/commons/a/a1/AJAX_logo_by_gengns.svg",
+
+      },
+      {
+        name: "jQuery",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original-wordmark.svg",
+      }
     ],
   },
   {
-    title: "Programming Skills that I want to learn more about",
+    title: "IT Support and Operations",
     skills: [
       {
-        name: "Angular JS",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
-      },
-      {
-        name: "Express JS",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
-      },
-      {
-        name: "C++",
+        name: "Troubleshooting ",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: "C#",
+        name: "•	Incident Management",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: ".NET",
+        name: "•	Ticketing",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
       {
-        name: ".NET Core",
+        name: "•	SLA Compliance",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Xamarin",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
       },
     ],
   },
   {
-    title: "IDE and other utilities",
+    title: "Networking",
+    skills: [
+      {
+        name: "•	VPN",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	DHCP",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	TCP/IP",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	Network Diagnostics",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	Wireshark",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	Patch Panel and Switch Port Tracing",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+    ],
+  },
+  {
+    title: "Systems and Administration",
+    skills: [
+      {
+        name: "•	Active Directory",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	Windows",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+      {
+        name: "•	Linux/Unix",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bullet_%28typography%29.svg",
+      },
+    ],
+  },
+  {
+    title: "Tools and Platforms",
     skills: [
       {
         name: "Git",
@@ -207,46 +220,6 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-      {
-        name: "Atom",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/atom/atom-original.svg",
-      },
-      {
-        name: "Eclipse",
-        image:
-          "https://clipground.com/images/eclipse-logo-png-3.png",
-      },
-      {
-        name: "FileZilla",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/filezilla/filezilla-plain.svg",
-      },
-      {
-        name: "JCreator",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/03/Jc_logo.png",
-      },
-      {
-        name: "NetBeans",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg",
-      },
-      {
-        name: "Unity",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg",
-      },
-      {
-        name: "Visual Studio",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/2/2c/Visual_Studio_Icon_2022.svg",
-      },
-      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -256,6 +229,43 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/d/dc/XAMPP_Logo.png",
       },
+      {
+        name: "Jira",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original-wordmark.svg",
+      },
+      {
+        name: "Windows",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/windows11/windows11-original-wordmark.svg",
+      },
+      {
+        name: "Ubuntu",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-original-wordmark.svg",
+      },
+      {
+        name: "TrueNAS",
+        image:
+          "https://www.truenas.com/wp-content/uploads/2026/02/truenas-community-edition-logo-full-color-rgb-900px-w-72ppi-1.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "Wireshark",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg",
+      },
+      {
+        name: "ManageEngine",
+        image: "https://www.manageengine.com/images/logo/manageengine-logo.svg",
+      },
+      {
+        name: "BigFix",
+        image: "https://wp.logos-download.com/wp-content/uploads/2022/12/BigFix_Inc_Logo-700x201.png",
+      }
     ],
   },
 ];
@@ -264,26 +274,26 @@ export const experiences = [
   {
     id: 0,
     img: "https://raw.githubusercontent.com/mhardev/mhardev-v2/refs/heads/main/src/images/Experience/%5B24%5D7.ai_PH.jpg",
-    role: "Associate IT Engineer (Project-based IT Associate)",
+    role: "Associate IT Engineer - ITSS Ops",
     company: "[24]]7.ai Philippines",
     date: "April 2025 - Present",
-    desc: "Proficient in troubleshooting hardware, software, and network issues. Diagnosing and resolving end-user software and system problems with minimal downtime.",
+    desc: "Provided L1 IT support in a fast-paced environment, resolving 30–50+ tickets weekly across hardware, software, network, and VPN issues. Managed Active Directory user accounts, configured workstations, and supported domain environments. Diagnosed connectivity problems using Cisco and Palo Alto VPN technologies, and utilized Wireshark for network traffic analysis. Collaborated with internal teams to ensure minimal downtime and efficient issue resolution.",
   },
   {
     id: 1,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "IT Programmer",
-    company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
+    role: "Project Technical Staff I (MIS)",
+    company: "Commission on Higher Education - National Capital Region (CHED-NCR)",
     date: "May 2024 - December 2024",
-    desc: "Develops, tests, & implements Information Systems. As well as providing technical support and proper encode/validate data.",
+    desc: "Delivered technical support for hardware, software, and network-related concerns within the MIS unit. Performed OS installations, system reformatting, and data backups to maintain system reliability. Troubleshot printers, routers, and connectivity issues, while assisting in IT asset inventory and workstation deployment to support daily operations. As well as Develops, tests, & implements Information Systems and Inventory Management Systems",
   },
   {
     id: 2,
     img: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Commission_on_Higher_Education_%28CHEd%29.svg",
-    role: "Junior Programmer",
-    company: "Commission on Higher Education - National Capital Region (CHEDRO-NCR)",
+    role: "OJT Trainee (MIS)",
+    company: "Commission on Higher Education - National Capital Region (CHED-NCR)",
     date: "Feb 2024 - May 2024",
-    desc: "Technical Support / Junior Programmer in MIS Unit at CHEDRO-NCR. (IT Practicum)",
+    desc: "Assisted in resolving basic IT and network issues, supporting day-to-day operations of the MIS team. Maintained IT asset inventory and performed data validation using Excel and Google Sheets, ensuring accuracy and organization of records. (IT Practicum)",
   },
 ];
 
