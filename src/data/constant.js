@@ -10,7 +10,7 @@ export const Bio = {
     "Detail-oriented aspiring IT Support Specialist professional with 1 year and 5 months of experience in L1 support, incident management, and technical troubleshooting. Proven ability to resolve high-volume tickets, manage Active Directory environments, and diagnose VPN/network issues using Cisco and Palo Alto technologies. Skilled in JIRA ticketing systems and SLA compliance, with a focus on improving end-user productivity and minimizing downtime.",
   github: "https://github.com/mhardev",
   resume:
-    "https://drive.google.com/file/d/1Z1Vx1MTamVmr_RXRht7sTAdM-vubG2F0/view?usp=sharing",
+    "https://drive.google.com/file/d/1uovqFgZ0nb4Y3UUiZjJp50V3kjKTVgQ8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/joshua-mhar-alcubilla-3506332b1/",
   twitter: "https://twitter.com/rielalou01",
   facebook: "https://www.facebook.com/AkiraSeika1/",
@@ -20,6 +20,15 @@ export const skills = [
   {
     title: "Programming",
     skills: [
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+      },
       {
         name: "JavaScript",
         image:
@@ -466,7 +475,7 @@ export const projects = [
     tags: [
       "TailwindCSS",
       "Shadcn UI",
-      "Vue JS",
+      "React JS",
       "MeteoSource API",
     ],
     category: [
